@@ -5,9 +5,10 @@ The goal is to create a ubuntu 20.04 virtual machine and 3 main softwares (docke
 Pre-requisites
 --------------
 * A local windows machine with 3 main utilities
-**  ubuntu Windows SubSystem for Linux (WSL2)
-**  Packer., to create base templates for ubuntu machines from ISO files hosted on ubuntu official sites
-**  Terraform., to create the virtual machine and configure various packages from the base template created by packer
+  * ubuntu Windows SubSystem for Linux (WSL2)
+  * Packer., to create base templates for ubuntu machines from ISO files hosted on ubuntu official sites
+  * Terraform., to create the virtual machine and configure various packages from the base template created by packer
+* Access to vSphere environment with adequate permissions to create resources
+* Internet accessibility from vSphere environment to external sources (e.g. github, etc.)
 
-Access to vSphere environment with adequate permissions to create resources
 
