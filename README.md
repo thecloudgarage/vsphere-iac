@@ -11,4 +11,19 @@ Pre-requisites
 * Access to vSphere environment with adequate permissions to create resources
 * Internet accessibility from vSphere environment to external sources (e.g. github, etc.)
 
+Tasks to be performed on WSL windows
+------------------------------------
+```
+git clone abc
+cd abc
+cd packer
+```
+Assuming we will use ubuntu as username and ubuntu as password
+```
+mkpasswd -m SHA-512 --rounds=4096
+password: ubuntu
+copy the <sha-value> value and 
+```
+
+
 
